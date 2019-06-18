@@ -9,14 +9,14 @@ gem 'capybara-screenshot', :group => :test
 gem 'listen'
 gem 'rails-controller-testing'
 
-gem 'pg'
-#gem 'sqlite3'
+#gem 'pg'
+gem 'sqlite3', '~> 1.3.6'
 
 gem 'simplecov'
 
 gem 'selenium-webdriver'
 
-gem 'mandrill'
+#gem 'mandrill'
 
 gem 'mandrill'
 
@@ -100,4 +100,3 @@ end
 group :development do
   gem 'rails_real_favicon'
 end
-
